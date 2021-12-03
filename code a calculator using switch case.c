@@ -30,7 +30,7 @@ int main()
         break;
 
         case '/':
-        printf("Division of two numbers: %d", FirstNumber/SecondNumber);
+        printf("Division of two numbers: %.1f", (float)FirstNumber/(float)SecondNumber);
         break;
 
         default:
